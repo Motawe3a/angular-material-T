@@ -15,7 +15,7 @@ import { DataService } from './shared/_services/data.service';
   declarations: [
     AppComponent,
     DataTableComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

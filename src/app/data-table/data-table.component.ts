@@ -2167,10 +2167,13 @@ export class DataTableComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    //disable service due to the huge amount of data
+
     // this.dataService.getDataList().subscribe(list => {
     //   this.ELEMENT_DATA = list;
     //   console.log(this.ELEMENT_DATA);
     // });
+
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
   }
