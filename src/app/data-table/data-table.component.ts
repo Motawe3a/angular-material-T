@@ -2167,7 +2167,7 @@ export class DataTableComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    //disable service due to the huge amount of data
+    // disable service due to the huge amount of data
 
     // this.dataService.getDataList().subscribe(list => {
     //   this.ELEMENT_DATA = list;
